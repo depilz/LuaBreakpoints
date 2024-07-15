@@ -21,12 +21,12 @@ transition.loop(circle, {
 local c = 0
 Runtime:addEventListener("enterFrame", function()
     c = c + 1
-    if c == 100 then
+    if c % 200 == 0 then
         breakpoint(1, function()
-            print(c, circle.x, circle.y)
+            print(circle.y)
 
             return true
         end)
     end
-end)
+end, 0)
 
