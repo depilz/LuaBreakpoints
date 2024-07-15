@@ -56,4 +56,4 @@ doSomeWork()
 
 **Creator**: Depilz  
 **Company**: Studycat Limited  
-This tool is made available as open-source under the MIT License, facilitating both personal use and community development.
+This tool is distributed as open-source under the MIT License, allowing for modification and redistribution. We encourage enhancements and would love to see how you adapt it for your needs.
